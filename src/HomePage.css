@@ -1,0 +1,41 @@
+body {
+    background-color: aquamarine;
+  }
+  .homePage
+  {
+    background-color: #3f3160;
+    min-height:500px;
+    width: 400px;
+    margin:40px auto ; 
+  }
+  
+  #meeting-topics input {
+    background-color: rgb(27,112,137);
+    border:0;
+    width:200px;
+    height:50px;
+    padding:0 20px;
+    margin:20px;
+    font-size:18px ;
+    border-radius:10px;
+    color:white;
+  }
+  
+  #meeting-topics input ::placeholder {
+    color:rgb(8, 8, 8);
+  }
+  
+  #meeting-topics input ::focus , #meeting-topics input ::button{
+    outline:none;
+  }
+  
+  #meeting-topics button {
+    height:50px ;
+    width:80px;
+    border-radius: 5px;
+    border:0;
+   background-color: #ff9625;
+   cursor:pointer ; 
+   font-weight:bolder;
+   color:white;
+  }
